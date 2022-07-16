@@ -5,6 +5,8 @@ This website is a challenge from FrontEnd Mentor.
 It's a responsive website that can be used to rate something and after rating that, a Thank You message is show.
 This website was built using Scss, HTML and JavaScript.
 
+**Website:** https://luizauszacki.github.io/Interactive-rating-component/
+
 <div align="center"> 
   <img src="https://user-images.githubusercontent.com/105115163/179335463-7d3d052e-b44d-4bcc-ab14-f3ed8df07e6b.png" height="350" alt="Interactive rating component's Image for Desktop - Rating Page">
   <br/>
