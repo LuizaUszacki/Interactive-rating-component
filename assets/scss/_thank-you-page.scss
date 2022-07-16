@@ -1,0 +1,38 @@
+main section:nth-of-type(2) {
+    display: none;
+}
+
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        height: 100px;
+        margin-bottom: 25px;
+
+        @media (min-width: 720px) {
+            height: 110px;
+            margin-bottom: 35px;
+        }
+    }
+
+    em {
+        display: inline-block;
+        background-color: var(--blue-circle);
+        padding: 10px 15px;
+        border-radius: 100vmax;
+        color: var(--orange);
+        font-style: normal;
+        margin-bottom: 33px;
+
+        @media (min-width: 720px) {
+            margin-bottom: 42px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 18px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="./assets/js/script.js" defer></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+<body>
+  <main>
+
+  <section class="rating-page">
+    <div class="circle container-star">
+      <img class="star-image" src="./assets/images/icon-star.svg" alt="Star">
+    </div>
+    <h1 class="rating-page__title">How did we do?</h1>
+    <p class="rating-page__para">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    <ul class="list-button">
+      <li><button class="circle btn-rating btn-number-1">1</button></li>
+      <li><button class="circle btn-rating btn-number-2">2</button></li>
+      <li><button class="circle btn-rating btn-number-3">3</button></li>
+      <li><button class="circle btn-rating btn-number-4">4</button></li>
+      <li><button class="circle btn-rating btn-number-5">5</button></li>
+    </ul>
+    <button class="btn-submit" type="submit">Submit</button> 
+  </section>
+
+  <section class="thank-you-page">
+    <img src="./assets/images/illustration-thank-you.svg" alt="Cell phone image">
+    <em>You selected <span id="rate"></span> out of 5</em>
+    <h2 class="thank-you-page__title">Thank you!</h2>
+    <p class="thank-you-page__para">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don't hesitate to get in touch!</p>
+  </section>
+
+  </main>
+</body>
+</html>

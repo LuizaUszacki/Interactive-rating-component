@@ -1,0 +1,57 @@
+@use 'variables' as font;
+
+* {
+    font-family: font.$font-family;
+}
+
+// ---------------------------------------------------------
+.title {
+    font-size: font.$font-size-title;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: font.$font-size-para;
+    color: var(--light-grey);
+    line-height: 1.5;
+}
+// ---------------------------------------------------------
+
+
+.rating-page {
+    &__title {
+        @extend .title;
+    }
+
+    &__para {
+        @extend .paragraph;
+    }
+
+    .btn-rating {
+        color: var(--light-grey);
+        font-weight: 700;
+     }
+
+
+    .btn-submit {
+        text-transform: uppercase;
+        color: var(--white);
+        font-weight: 700;
+    }
+}
+
+.star-image {
+    width: font.$font-size-para;
+    height: font.$font-size-para;
+}
+
+.thank-you-page {
+    &__title {
+        @extend .title;
+    }
+
+    &__para {
+        @extend .paragraph;
+    }
+}
